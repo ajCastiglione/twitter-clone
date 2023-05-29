@@ -1,5 +1,6 @@
 import { type NextPage } from "next";
 import NewTweetForm from "~/components/NewTweetForm";
+import RecentTweets from "~/components/RecentTweets";
 
 const Home: NextPage = () => {
   return (
@@ -9,6 +10,7 @@ const Home: NextPage = () => {
       </header>
 
       <NewTweetForm />
+      <RecentTweets />
     </>
   );
 };
